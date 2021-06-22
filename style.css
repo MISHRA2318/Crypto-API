@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+   box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    overflow-x: hidden;
+    margin: 0;
+
+    height: 100vh;
+}
+
+
+
+.container{
+    /* border: 2px solid indianred; */
+    padding: 30px 50px;
+    max-width: 800%;
+    width: 600px;
+    text-align: center;
+}
+
+.container1{
+    padding: 30px 40px;
+    padding-left: 30px;
+    max-width: 800%;
+    width: 600px;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+.head{
+    background-color: #5C33F6;
+    width: 100%;
+    text-align: center;
+    padding: 0px 20px;
+    /* padding-bottom: 100px; */
+}
+
+h1{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+h3{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#dol{
+    font-size: 2rem;
+    margin-bottom: 0px;
+}
+
+.image1{
+   float: left;
+}
+
+/* .img1{
+    padding: 0px 30px;
+} */
+
+
+.image5{
+    padding-right: 30px;
+}
+
+.bitcoin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 20px 30px;
+   
+}
+
+.note{
+    padding: 4px 0px;
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#para3{
+    font-size: 16px;
+    font-weight: bold;
+}
